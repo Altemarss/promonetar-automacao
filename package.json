@@ -1,12 +1,13 @@
 {
   "name": "promonetar-automacao",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Automacao para coleta, selecao e distribuicao de ofertas de marketplaces.",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "node --watch src/app.js"
+    "start": "node src/server.js",
+    "demo": "node src/services/demo.js",
+    "dev": "node --watch src/server.js"
   },
   "engines": {
     "node": ">=20"

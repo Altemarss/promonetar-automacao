@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Promonetar Automação</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div><strong>PROMONETAR</strong><span>Automação de Ofertas</span></div><b id="mode">PROTÓTIPO</b></header>
+<main>
+<section class="hero"><div><p class="eyebrow">PAINEL DE CONTROLE</p><h1>Ofertas que trabalham por você.</h1><p>Mercado Livre, Shopee e Amazon em um único fluxo de seleção e publicação.</p></div><button onclick="load()">↻ Atualizar painel</button></section>
+<section class="marketplaces"><article>🟡 <b>Mercado Livre</b><small>Integração em desenvolvimento</small></article><article>🟠 <b>Shopee</b><small>Adaptador preparado</small></article><article>⚫ <b>Amazon</b><small>Adaptador preparado</small></article></section>
+<section class="stats"><article><span>Encontradas</span><b id="found">—</b></article><article><span>Aprovadas</span><b id="approved">—</b></article><article><span>Na fila</span><b id="queued">—</b></article><article><span>Publicadas</span><b id="published">—</b></article></section>
+<section class="panel"><div class="panel-title"><div><p class="eyebrow">MOTOR DE OFERTAS</p><h2>Ofertas selecionadas</h2></div><span id="telegram"></span></div><div id="offers"></div></section>
+<p class="notice">Dados demonstrativos. A próxima etapa conecta APIs e credenciais reais dos marketplaces e do Telegram.</p>
+</main><script src="/app.js"></script>
+</body></html>
